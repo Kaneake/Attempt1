@@ -1,0 +1,19 @@
+//create a new activity (activity_employee_profile)
+Fill in UI (name, email, postal address, password, ?distance?)
+Name the UI elements - their id (fullName, postalAddress, password, radius)
+UI element - Button Text("save") ID(newProfileButton)
+
+//Push the screen - CVS - commit, share in github
+
+//Intent is used in android studio to move from screen to screen
+Intent intent = new Intent(getApplicationContext(), [insert the ID of the screen you want to go to].class);
+startActivity(intent);
+
+//Make sure to work on your layout and line them properly to avoid them lying over each other
+UI>layouts>linear layout>drag and drop
+the width and height should "match parent"
+ex.: <Linear Layout
+attribute3
+attribute2
+attribute1 > Button etc., Edit etc., etc.
+To close it, </LinearLayout>
